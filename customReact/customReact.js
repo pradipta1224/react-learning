@@ -16,5 +16,5 @@ const reactElement = {
     children: 'Click me to visit google'
 }
 
-const mainContainer = document.getElementById(root)
+const mainContainer = document.getElementById('root')
 customRender(reactElement, mainContainer)
